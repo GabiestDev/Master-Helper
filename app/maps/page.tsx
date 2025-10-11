@@ -322,40 +322,6 @@ export default function MapGenerator() {
 
   return (
     <div className="min-h-screen">
-      {/* Header */}
-      <header className="border-b border-border/50 bg-card/50 backdrop-blur-sm">
-        <div className="container mx-auto px-4 py-6">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-                <Shield className="h-8 w-8 text-primary" />
-                <span className="text-2xl font-bold text-primary">{t("siteTitle")}</span>
-              </Link>
-            </div>
-            <nav className="flex items-center gap-6">
-              <Link href="/initiative" className="text-foreground hover:text-primary transition-colors">
-                {t("initiativeTracker")}
-              </Link>
-              <Link href="/compendium" className="text-foreground hover:text-primary transition-colors">
-                {t("compendium")}
-              </Link>
-              <Link href="/dice" className="text-foreground hover:text-primary transition-colors">
-                {t("diceRoller")}
-              </Link>
-              <Link href="/characters" className="text-foreground hover:text-primary transition-colors">
-                {t("characterSheets")}
-              </Link>
-              <Link href="/maps" className="text-primary font-medium">
-                {t("mapGenerator")}
-              </Link>
-              <Link href="/npcs" className="text-foreground hover:text-primary transition-colors">
-                {t("npcGenerator")}
-              </Link>
-            </nav>
-          </div>
-        </div>
-      </header>
-
       <div className="container mx-auto px-4 py-8">
         <div className="medieval-border p-6 mb-8">
           <div className="flex items-center justify-between mb-6">

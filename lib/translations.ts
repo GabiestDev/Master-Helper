@@ -80,7 +80,7 @@ export const translations = {
     footerText: "Crafted for adventurers, by adventurers. May your dice roll high!",
     footer: {
       developedBy: "Desenvolvido por Gabriel Neto",
-      copyright: "© 2024 Medieval RPG Companion. All rights reserved.",
+      copyright: "© 2025 Medieval RPG Companion. All rights reserved.",
     },
 
     // Feature Cards
@@ -210,7 +210,7 @@ export const translations = {
     footerText: "Criado para aventureiros, por aventureiros. Que seus dados rolem alto!",
     footer: {
       developedBy: "Desenvolvido por Gabriel Neto",
-      copyright: "© 2024 Companheiro RPG Medieval. Todos os direitos reservados.",
+      copyright: "© 2025 Companheiro RPG Medieval. Todos os direitos reservados.",
     },
 
     // Feature Cards

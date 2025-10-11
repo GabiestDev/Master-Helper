@@ -168,28 +168,6 @@ export default function InitiativeTracker() {
 
   return (
     <div className="min-h-screen">
-      {/* Header */}
-      <header className="border-b border-border/50 bg-card/50 backdrop-blur-sm">
-        <div className="container mx-auto px-4 py-6">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-                <Shield className="h-8 w-8 text-primary" />
-                <span className="text-2xl font-bold text-primary">Medieval RPG Companion</span>
-              </Link>
-            </div>
-            <nav className="flex items-center gap-6">
-              <Link href="/initiative" className="text-primary font-medium">
-                Initiative Tracker
-              </Link>
-              <Link href="/compendium" className="text-foreground hover:text-primary transition-colors">
-                Compendium
-              </Link>
-            </nav>
-          </div>
-        </div>
-      </header>
-
       <div className="container mx-auto px-4 py-8">
         <div className="medieval-border p-6 mb-8">
           <div className="flex items-center justify-between mb-6">
